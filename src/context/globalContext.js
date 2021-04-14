@@ -1,6 +1,6 @@
 import React, { createContext, useReducer, useContext } from "react"
 
-//Define the Conyext
+//Define the Context
 const GlobalStateContext = createContext()
 const GlobalDispatchContext = createContext()
 
@@ -26,7 +26,7 @@ export const GlobalProvider = ({ children }) => {
   const [state, dispatch] = useReducer(globalReducer, {
     currentTheme:
       window.localStorage.getItem("theme") == null
-        ? "dark"
+        ? "light"
         : window.localStorage.getItem("theme")
   })
 

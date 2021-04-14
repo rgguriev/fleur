@@ -18,7 +18,7 @@ const HeroWrapper = styled.div`
   overflow: hidden;
   position: relative;
   
-  h1 {
+  h1, h2 {
     font-size: 180px;
     //text-transform: uppercase;
     font-style: italic;

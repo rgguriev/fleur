@@ -41,6 +41,9 @@ const HeroBoxStyled = styled.div`
     }
   .hero-name-2 {
     top: 0;
+    @media ( max-width: 992px ) {
+      top: 0px;
+    }
     @media ( min-width: 1440px ) {
       top: 0px;
       -webkit-text-stroke-width: 3px;
@@ -50,6 +53,9 @@ const HeroBoxStyled = styled.div`
   }
   .hero-name-3 {
     top: 1.6vw;
+    @media ( max-width: 992px ) {
+      top: 15px;
+    }
     @media ( min-width: 1440px ) {
       top: 20px;
       -webkit-text-stroke-width: 3px;
@@ -59,6 +65,9 @@ const HeroBoxStyled = styled.div`
   }
   .hero-name-4 {
     top: 3.2vw;
+    @media ( max-width: 992px ) {
+      top: 30px;
+    }
     @media ( min-width: 1440px ) {
       top: 40px;
       -webkit-text-stroke-width: 3px;
@@ -68,6 +77,9 @@ const HeroBoxStyled = styled.div`
   }
   .hero-name-5 {
     top: 4.6vw;
+    @media ( max-width: 992px ) {
+      top: 45px;
+    }
     @media ( min-width: 1440px ) {
       top: 60px;
       -webkit-text-stroke-width: 3px;
@@ -77,6 +89,9 @@ const HeroBoxStyled = styled.div`
   }
   .hero-name-6 {
     top: 6.2vw;
+    @media ( max-width: 992px ) {
+      top: 60px;
+    }
     @media ( min-width: 1440px ) {
       top: 80px;
       -webkit-text-stroke-width: 3px;
@@ -86,6 +101,9 @@ const HeroBoxStyled = styled.div`
   }
   .hero-name-7 {
     top: 7.8vw;
+    @media ( max-width: 992px ) {
+      top: 75px;
+    }
     @media ( min-width: 1440px ) {
       top: 100px;
       -webkit-text-stroke-width: 3px;
@@ -100,12 +118,12 @@ const HeroLogo = () => {
   return (
     <HeroStyled>
       <HeroBoxStyled>
-        <h1 className="hero-name hero-name-7">СтудияФлёр</h1>
-        <h1 className="hero-name hero-name-6">СтудияФлёр</h1>
-        <h1 className="hero-name hero-name-5">СтудияФлёр</h1>
-        <h1 className="hero-name hero-name-4">СтудияФлёр</h1>
-        <h1 className="hero-name hero-name-3">СтудияФлёр</h1>
-        <h1 className="hero-name hero-name-2">СтудияФлёр</h1>
+        <h2 className="hero-name hero-name-7">СтудияФлёр</h2>
+        <h2 className="hero-name hero-name-6">СтудияФлёр</h2>
+        <h2 className="hero-name hero-name-5">СтудияФлёр</h2>
+        <h2 className="hero-name hero-name-4">СтудияФлёр</h2>
+        <h2 className="hero-name hero-name-3">СтудияФлёр</h2>
+        <h2 className="hero-name hero-name-2">СтудияФлёр</h2>
         <h1 className="hero-name hero-name-1">СтудияФлёр</h1>
       </HeroBoxStyled>
     </HeroStyled>

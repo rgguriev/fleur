@@ -2,13 +2,13 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
 
-import Hero from "../components/Hero"
-import BlurBackground from '../components/background'
+import Hero from "../../components/Hero"
+import BlurBackground from '../../components/background'
 
-import { Container } from "../styles/globalStyles"
+import { Container } from "../../styles/globalStyles"
 
 const IndexPage = () => (
   <Layout>
